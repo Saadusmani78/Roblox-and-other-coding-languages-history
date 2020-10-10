@@ -1,0 +1,34 @@
+
+
+#StartN, #EndN {
+    border-radius: 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#text {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 15;
+}
+
+#main-container {
+    width: auto;
+    max-height: 100%;
+    background-image: url('Numbers.jpg');
+}
+body {
+    background-image: linear-gradient(to right, purple, blue);
+}
+#StartN:focus, #EndN:focus {
+    outline-width: 0px;
+}
+#Random {
+    font-family: 'Roboto', sans-serif;
+}
+
+#MC2 {
+    background-image: linear-gradient(to right, rgb(226, 171, 171), red);
+}
+
+#body2 {
+    background-image: linear-gradient(to right, rgb(231, 61, 61), rgb(226, 171, 171));
+}
+
