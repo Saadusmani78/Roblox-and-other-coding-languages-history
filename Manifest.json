@@ -1,0 +1,12 @@
+  {
+    "name": "Random Number Generator",
+    "version": "1.0",
+    "description": "This is my first ever extension! You can enter numebrs in the boxes, then if you press enter you will get a random number between those. a secret: Press F2 to cycle between another theme.",
+    "manifest_version": 2,
+    "icons": {"128": "icon.png"},
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
